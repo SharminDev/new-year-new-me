@@ -144,7 +144,8 @@
     margin-bottom: 15px;
 }
 
-#mindset-btn {
+#mindset-btn,
+#submit-btn {
     margin-top: 5px;
     padding: 15px 25px;
     color: orangered;
@@ -188,3 +189,58 @@
 }
 
 /* .......footer section styles.......... */
+footer {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-information {
+    width: 50%;
+}
+
+#footer-heading {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    color: rgba(245, 245, 245, 0.829);
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+#footer-icons {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.user-data {
+    color: whitesmoke;
+
+}
+
+#sub-option {
+    font-weight: 300px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+#mail-btn {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px 55px 10px 2px;
+    color: grey;
+    background-color: rgb(11, 11, 11);
+    border-radius: 5px;
+    font-weight: medium;
+    border-color: #262525;
+}
