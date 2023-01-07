@@ -63,8 +63,7 @@
     padding-left: 90px;
 }
 
-.failures-title,
-.plans-heading {
+.failures-title {
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 45px;
@@ -82,6 +81,8 @@
     color: #444343;
 }
 
+
+
 /* my plans section... */
 .my-plans-section {
     display: flex;
@@ -92,20 +93,25 @@
     width: 100%;
     margin-top: 30px;
     margin-bottom: 90px;
-    padding: 30px;
+
 }
+
 
 .plans-heading {
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-top: 55px;
+    font-weight: 700px;
+    font-size: 50px;
+    color: #151414;
 }
 
 .plan-title {
     text-align: center;
     font-weight: 700px;
     font-size: 24px;
+    color: #151414;
 }
 
 .plan-description {
